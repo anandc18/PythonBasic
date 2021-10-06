@@ -1,0 +1,29 @@
+#List in python
+
+fruits = ['apple','banana','1']
+print(fruits[2]);
+print(len(fruits))
+
+#TUPLES IN python
+
+#A tuple is a collection of different data types which is ordered and unchangeable (immutable). Tuples are written with round brackets, (). Once a tuple is created, we cannot change its values. We cannot use add, insert, remove methods in a tuple because it is not modifiable (mutable). Unlike list, tuple has few methods. Methods related to tuples:
+
+#- tuple(): to create an empty tuple
+#- count(): to count the number of a specified item in a tuple
+#- index(): to find the index of a specified item in a tuple
+#- + operator: to join two or more tuples and to create a new tuple
+
+all_items  = ('test','1','Hello')
+print(all_items[-2])
+
+#Sets in python
+#Set is a collection of unordered and unindexed distinct elements. In python set is used to store unique items, and it is possible to find the _union_, _intersection_, _difference_, _symmetric difference_, _subset_, _super set_ and _disjoint set_ among sets.
+st = set("Hello world")
+print(st)
+st.add("welcome")
+print(st)
+
+#Dictionaeris in python
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct['key1'])
+print(dct.items())
